@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = 'Sushmaraj21'
+        DOCKERHUB_USERNAME = 'sushmitha221'
         DOCKER_IMAGE = 'webapp'
         DOCKERHUB_REPO = 'zepto-brocode'
         VERSION = '$BUILD_ID'
